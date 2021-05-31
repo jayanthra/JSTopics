@@ -4,6 +4,10 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayanthra/JSTopics.git"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
