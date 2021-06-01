@@ -1,8 +1,8 @@
 <template>
-<div class="home">
+<div class="landing">
     <div class="item-list">
         <div class="item" @click="gotoDetails(item)" v-for="(item,index) in topics" :key="index">
-            <img :src="item.img" alt="">
+            <img :src="item.img">
             <div class="gradient"></div>
             <p>{{item.title}}</p>
         </div>
@@ -28,15 +28,20 @@ export default {
 </script>
 
 <style scoped>
+.landing {
+    padding-bottom: 3.6rem;
+}
+
 .item-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
     display: flex;
     height: 150px;
-    width: 300px;
+    width: 240px;
     background: lightblue;
     margin: 12px;
     border-radius: 6px;
@@ -73,7 +78,7 @@ p {
     margin: 12px;
     color: white;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     bottom: 0;
 }
 

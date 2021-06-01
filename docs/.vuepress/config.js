@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'JS Kwikki',
+  title: 'JS Chef',
   themeConfig: {
     nav: [
       {
@@ -16,6 +16,7 @@ module.exports = {
       '../guide/currying',
       '../guide/eventloops',
       '../guide/prototypes',
-    ]
+    ],
+    logo: '/javascript.png'
   }
 }
