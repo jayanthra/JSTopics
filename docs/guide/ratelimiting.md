@@ -1,10 +1,10 @@
 # Debounce and throttle
 
-Debounce and throttle are two rate limit techniques use to limit the number of times a function is called over a period of time
+Debounce and throttle are two rate limiting techniques used to limit the number of times a function is called over a period of time
 
 ## Debounce
 
-Only trigger event when difference between two actions greater than set time
+Function is called only when time difference between two actions greater than set time
  
 ``` js
     let debounce = function (fn, delay) {
@@ -30,8 +30,7 @@ Only trigger event when difference between two actions greater than set time
 
 ## Throttle
 
-Only trigger event after particular time has passed 
-eg : if time is 500ms, event is triggered only once between that time frame
+Function is called only once during between each specified time period
 
 ```js
 let throttle = function(fn, limit) {
