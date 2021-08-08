@@ -56,7 +56,7 @@ meals.some(function(item){ return item === 'lunch';});
 // true
 
 meals.some(function(item){ return item === 'burgers!!';});
-//false
+// false
 ```
 
 #### More:

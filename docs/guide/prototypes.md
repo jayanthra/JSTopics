@@ -130,9 +130,27 @@ honda.stop() // Honda stopped
 
 ```
 
-### Prototype implementations
+## Constructor Property
 
-Few examples for implemting [own prototypes](/guide/prototypeimp)
+Every function has a prototype property, which in turn has constructor property
+
+```js
+function Bike(make) {
+  this.make = make;
+}
+
+Bike.prototype.start = function() {
+  console.log(`${this.make} started`)
+}
+
+console.log(Bike.prototype)
+// {start: ƒ, constructor: ƒ}
+
+console.log(Bike.prototype.constructor)
+// ƒ Bike(make) {
+//   this.make = make;
+// }
+```
 
 #### Reference:
 

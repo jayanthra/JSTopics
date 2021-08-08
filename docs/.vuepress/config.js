@@ -16,6 +16,7 @@ module.exports = {
       '../guide/currying',
       '../guide/eventloops',
       '../guide/prototypes',
+      '../guide/prototypal',
     ],
     logo: '/javascript.png'
   }
