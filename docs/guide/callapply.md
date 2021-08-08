@@ -63,7 +63,8 @@ describeCar.apply(maruthi, ['red', 'blue'])
   `call()`  : C[omma]ALL
 :::
 
-References:
+#### References:
+
 - [MDN Web docs bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 - [MDN Web docs call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [MDN Web docs apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)

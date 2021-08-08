@@ -83,5 +83,6 @@ printBrand() // Car brand is Suzuki
 `this.make` in window object is `Suzuki`
 
 
-Reference: 
-- [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+#### Reference: 
+
+[MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)

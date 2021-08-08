@@ -81,7 +81,7 @@ yamaha.start() // Yamaha started
 Now the vehicle functionalities has been reused and we have selected, using `Object.create` , when function is invoked, JS will check if the object had that function else it will use from `vehicleFunctions`
 
 
-### Prototypes 
+## Prototypes 
 
 In Javascript every object has a property called prototype that references an object,
 we can improve the previous code using prototype concept
@@ -134,6 +134,6 @@ honda.stop() // Honda stopped
 
 Few examples for implemting [own prototypes](/guide/prototypeimp)
 
-Reference
+#### Reference:
 
 [MDN docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)

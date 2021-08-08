@@ -59,6 +59,6 @@ meals.some(function(item){ return item === 'burgers!!';});
 //false
 ```
 
-More :
+#### More:
 
 [Array Cheat Sheet](https://gist.github.com/ourmaninamsterdam/1be9a5590c9cf4a0ab42)

@@ -52,5 +52,6 @@ console.log(curriedSum(1)(2)(3)); // 6, full currying
 ```
 
 
-References:
-- [JavascriptInfo](https://javascript.info/currying-partials)
+#### References:
+
+[JavascriptInfo](https://javascript.info/currying-partials)

@@ -42,5 +42,6 @@ In this example, we have defined a function multiplier(x), that takes a single a
 - [Memoization](https://scotch.io/tutorials/understanding-memoization-in-javascript)
 - [Currying](/guide/currying)
 
-References:
-- [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+#### References:
+
+[MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
