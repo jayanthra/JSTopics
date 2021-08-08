@@ -60,6 +60,6 @@ let throttle = function(fn, limit) {
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Reference:
+References:
 - [Akshay Saini](https://www.youtube.com/watch?v=tJhA0DrH5co)
 - [CSS-TRICKS](https://css-tricks.com/debouncing-throttling-explained-examples/)

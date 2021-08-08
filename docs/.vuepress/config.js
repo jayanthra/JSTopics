@@ -8,11 +8,11 @@ module.exports = {
       },
     ],
     sidebar: [
-      '../guide/ratelimiting',
-      '../guide/callapply',
       '../guide/this',
+      '../guide/callapply',
       '../guide/arraycheat',
       '../guide/closures',
+      '../guide/ratelimiting',
       '../guide/currying',
       '../guide/eventloops',
       '../guide/prototypes',
